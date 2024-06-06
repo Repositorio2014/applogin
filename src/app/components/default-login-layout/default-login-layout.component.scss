@@ -20,6 +20,15 @@ main{
 
     flex-grow: 1;
     background-color: $gray-bg;
+
+    h1{
+      color: $golden-color;
+    }
+  }
+
+  .image-principal{
+    width: 70%;
+    height: 70% !important;
   }
 
   .form-section{
@@ -27,13 +36,14 @@ main{
     padding: 0 35px;
 
     img{
-      margin-bottom: 30px;
+      margin-bottom: -30px;
     }
 
     h2{
       font-size: 20px;
       font-weight: bold;
-      margin-bottom: 45px;
+      margin: 0 0 45px 0;
+      color: $golden-color;
     }
 
     .btn-wrapper{
